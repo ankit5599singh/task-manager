@@ -1,0 +1,75 @@
+# Laravel
+/vendor
+/bootstrap/ssr
+/bootstrap/cache/*.php
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# PHPUnit
+/.phpunit.cache
+/.phpunit.result.cache
+
+# Frontend dependencies and generated assets
+/node_modules
+/public/build
+/public/hot
+/public/fonts-manifest.dev.json
+
+# Laravel generated files and runtime data
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+
+# Generated Laravel Wayfinder files
+/resources/js/actions
+/resources/js/routes
+/resources/js/wayfinder
+
+# Composer authentication
+/auth.json
+
+# Node package manager logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs and editors
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# AI coding tools and agent configuration
+/.agents
+/.amp
+/.claude
+/.codex
+/.cursor
+/.factory
+/.grok
+/.junie
+/.kiro
+/.pi
+/.mcp.json
+/AGENTS.md
+/CLAUDE.md
+/boost.json
+/opencode.json
+/opencode.jsonc
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test and coverage output
+/coverage
+/.nyc_output
